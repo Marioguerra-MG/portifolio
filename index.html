@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css.css">
+    <link rel="stylesheet" href="/projetos/css/projetos.css">
+    <title>Portifolio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <ul class="cabecalhoLinks">
+            <li><button id="info" onclick="scrollParaSobre()">Sobre</button></li>
+            <li><button id="minhasAbilidadesBTN" onclick="scrollParaHabilidades()">Tech Stack</button></li>
+            <li><button id="contatosBtn" onclick="scrollParaContatos()">Contatos</button></li>
+        </ul>
+    </header>
+
+
+    <main class="conteudo" >
+
+        <div class="nomeContatos"> 
+            <h1 id="nome">Mario guerra</h1>
+            <h1 id="fullStack">Desenvolvedor Full Stack</h1>
+            <p>Experiência em HTML, CSS, JavaScript, Node.js e React.
+                Focado em criar soluções eficientes e escaláveis.
+            </p>
+
+            <div class="link">
+                
+                <a href="https://github.com/Marioguerra-MG" class="linkGitHub">
+                    <i id="iconeGitHub" class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <button class="linkProjetos"  onclick="scrollParaProjetos()">
+                    <i id="iconeProjetos" class="fa-solid fa-diagram-project"></i>
+                    Projetos
+                </button>
+                
+            </div>
+
+        </div>
+    </main>
+
+
+    <div class="conteudoProjetos" id="conteudo">
+        <h1 id="nomeProjetos">Projetos</h1>
+        <section class="projetos">
+            <!-- Exemplo de projeto -->
+            <article class="projeto">
+                <img src="/img/trasnporte facil.png" alt="Imagem do Projeto 1">
+                <div class="descricao">
+                    <h2>TransporteFacil</h2>
+                    <p>Esta aplicação web é projetada para gerenciar rotas de transporte, permitindo a adição, edição e remoção de registros. As informações são armazenadas localmente no navegador e exibidas em uma tabela atualizável.</p>
+                    <div class="linguagemUsadas">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    
+                    <a href="trasporte-facil.vercel.app" class="botao">Testar</a>
+                </div>
+            </article>
+
+            <article class="projeto">
+                <img src="/img/taskup.png" alt="Imagem do Projeto 1">
+                <div class="descricao">
+                    <h2>TaskUp</h2>
+                    <p>Esta aplicação web permite o gerenciamento de tarefas, incluindo a adição, conclusão e remoção de tarefas. Os dados são armazenados localmente no navegador e exibidos em uma tabela dinâmica.</p>
+                    <div class="linguagemUsadas">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <a href="https://rotina-swart.vercel.app/" class="botao">Testar</a>
+                </div>
+            </article>
+
+
+            <article class="projeto">
+                <img src="/img/Agendamento de Paciente.png" alt="Imagem do Projeto 1">
+                <div class="descricao">
+                    <h2>Agendamento de Paciente</h2>
+                    <p>Este projeto é uma aplicação web para o gerenciamento de pacientes. Permite a adição, visualização e remoção de pacientes, com armazenamento local no navegador. Inclui funcionalidades como validação de dados, formatação de telefone, e filtro de busca.</p>
+                    <div class="linguagemUsadas">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <a href="trasporte-facil.vercel.app" class="botao">Testar</a>
+                </div>
+            </article>
+
+            <article class="projeto">
+                <img src="/img/controle de validade.png" alt="Imagem do Projeto 1">
+                <div class="descricao">
+                    <h2>Controle de Validade</h2>
+                    <p>Mantenha a qualidade e segurança dos seus produtos com nosso sistema de controle de validade. Ideal para itens resfriados, a ferramenta ajuda você a monitorar datas de vencimento, garantir que apenas produtos frescos cheguem aos consumidores!</p>
+                    <div class="linguagemUsadas">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <a href="https://controle-datas.vercel.app/" class="botao">Testar</a>
+                </div>
+            </article>
+            <!-- Repita o bloco acima para cada projeto -->
+        </section>
+    </div>
+
+
+    <div class="habilidades" id="habilidades">
+        <h1>Minhas Habilidades</h1>
+    
+        <div class="habilidades-lista">
+            <div class="habilidade">
+                <i id="html" class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+            </div>
+            <div class="habilidade">
+                <i id="css" class="fa-brands fa-css3-alt"></i>
+                <h2>CSS</h2>
+            </div>
+            <div class="habilidade">
+                <i id="js" class="fa-brands fa-js"></i>
+                <h2>JavaScript</h2>
+            </div>
+            <div class="habilidade">
+                <i id="node" class="fa-brands fa-node"></i>
+                <h2>Node.js</h2>
+            </div>
+
+            <div class="habilidade">
+                <i id="react" class="fa-brands fa-react"></i>
+                <h2>React</h2>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="sobre" id="sobreMin">
+        <h1>Sobre Mim</h1>
+        <p>Olá, meu nome é <strong>Mario</strong> e sou apaixonado por criar soluções inovadoras na área de desenvolvimento web! Minha jornada no mundo da tecnologia começou em 2015, quando comecei a explorar o desenvolvimento de sites simples com HTML e CSS.</p>
+        
+        <p>Atualmente, estou me dedicando a desenvolver aplicações web, melhorar a experiência do usuário, criar sites responsivos e garantir a acessibilidade nas interfaces. Meu foco está em criar soluções eficientes e escaláveis, utilizando as mais recentes tecnologias como JavaScript, Node.js e React.</p>
+    
+        <p>Apesar de não estar atualmente trabalhando na área, minha paixão por aprender e desenvolver novos projetos continua forte. Sempre busco me aprimorar e explorar novas possibilidades dentro do desenvolvimento web.</p>
+    </div>
+
+
+    <div class="contatos" id="contatos">
+        <div class="mensagem-contato">
+            <h2>Entre em contato comigo</h2>
+            <p>Fico à disposição para conversar e esclarecer suas dúvidas. Vamos nos conectar!</p>
+            
+            <div class="contato-opcao">
+                <a href="https://wa.me/5561998814365" target="_blank" class="btn-watzap">
+                    <i class="fab fa-whatsapp"></i> Mande mensagem via WhatsApp
+                </a>
+            </div>
+    
+            <p class="ou">ou</p>
+    
+            <div class="email-container">
+                <p>E-mail:</p>
+                <a href="mailto:marioguerradasilvaneto93@gmail.com" class="email-link">marioguerradasilvaneto93@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer class="footer">
+        <div class="footer-conteudo">
+            <div class="footer-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#sobreMin">Sobre</a></li>
+                    <li><a href="#habilidades">Tech Stack</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="https://github.com/Marioguerra-MG" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/mario-guerra-code/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/Marioguerra-MG" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="mailto:marioguerradasilvaneto93@gmail.com"><i class="fas fa-envelope"></i> E-mail</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-info">
+                <p>&copy; 2025 Mario Guerra. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <script src="/js/meusProjetos.js"></script>
+</body>
+</html>
