@@ -76,10 +76,17 @@
 @media (max-width: 768px) {
     .conteudoProjetos {
         max-width: 100%;  /* Garante que o conteúdo ocupe 100% da largura */
+        
+    }
+
+    .projetos {
+        margin-top: 10px;
+        width: 350px;
     }
 
     .projeto {
-        width: 100%;  /* Garante que o projeto ocupe 100% da largura */
+        width: 100%; 
+         /* Garante que o projeto ocupe 100% da largura */
     }
 
     .projeto img {

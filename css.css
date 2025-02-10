@@ -171,15 +171,7 @@ a{
     padding: 3px 8px;
     border-radius: 30px;
     font-weight: 500;
-    transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
-.linguagemUsadas p:hover {
-    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
-}
-
-
-
 
 
 .sobre {
@@ -413,9 +405,7 @@ a{
     gap: 30px;
 }
 
-.footer-links, .footer-social, .footer-info {
-    flex: 1 1 300px;
-}
+
 
 .footer-links h3, .footer-social h3 {
     font-size: 1.4em;
@@ -467,12 +457,22 @@ a{
     .footer-conteudo {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        max-width: 500px;
+        gap: 0;   
     }
 
+
+    .footer-info{
+        align-items: start;
+        justify-content: start;
+        margin-top: 0;
+    }
+
+   
     .footer-links, .footer-social {
         text-align: center;
     }
+
 
     .cabecalho {
         padding: 0 20px;
@@ -491,12 +491,14 @@ a{
 
     /* Linguagens usadas em telas menores */
     .linguagemUsadas {
-        justify-content: center; /* Alinha os itens no centro */
+        justify-content: center;
+        gap: 5px;
+         /* Alinha os itens no centro */
     }
 
     .linguagemUsadas p {
-        font-size: 16px;
-        padding: 8px 16px;
+        font-size: 12px;
+        padding: 4px 8px;
     }
 
     /* Ajustes nos contatos */
@@ -520,6 +522,8 @@ a{
     .sobre, .habilidades{
         width: 95%;
     }
+
+    
 }
 
 /* Responsividade para telas pequenas (menor que 480px) */
