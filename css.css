@@ -501,6 +501,9 @@ a{
         padding: 4px 8px;
     }
 
+    .conteudo{
+        width: 90%;
+    }
     /* Ajustes nos contatos */
     .contatos {
         height: 400px;
