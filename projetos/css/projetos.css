@@ -39,6 +39,7 @@
 
 .descricao {
     padding: 20px;
+    height: 100%;
     background-color: #fff;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -82,6 +83,7 @@
     .projetos {
         margin-top: 10px;
         width: 365px;
+        gap: 40px;
     }
 
     .projeto {
